@@ -16,9 +16,10 @@ int main(){
             cout << " ";
         }
         space_count--;
-        for (int k = 0; k < i; k++){
-            cout << input_string[k];
-        }
+        // for (int k = 0; k < i; k++){
+        //     cout << input_string[k];
+        // }
+        cout << input_string.substr(0, i);
         for (int l = i; l >= 0; l--){
             cout << input_string[l];
         }
