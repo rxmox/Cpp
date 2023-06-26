@@ -6,7 +6,8 @@ using namespace std;
 int main(){
     string input_string;
     cout << "Enter a string: ";
-    cin >> input_string;
+    //cin >> input_string;
+    getline(cin, input_string);
 
     int string_length = input_string.length();              // length of the string
     int space_count = string_length - 1;                    // number of spaces to print
