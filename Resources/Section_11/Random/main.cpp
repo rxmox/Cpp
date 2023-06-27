@@ -21,7 +21,7 @@ int main() {
     srand(time(nullptr));  
     
     for (size_t i{1}; i<=count; ++i)  {
-        random_number = rand() % max + min;     // generate a random number [min, max]
+        random_number = rand() % max + min;     // generate a random number [min, max] , taking modulus generates a number between 0 and 5, then min adds 1 so it's between 1 and 6 
         cout << random_number << endl;
     }
 
